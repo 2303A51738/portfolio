@@ -1,0 +1,1271 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <title>Guru Charan Reddy | AI/ML &amp; Software Engineer Portfolio</title>
+  <meta name="description" content="Portfolio of Guru Charan Reddy &mdash; Final-year B.Tech CSE student at SR University specializing in AI/ML, Python, Java, C++, and Game Development.">
+  <meta name="keywords" content="Guru Charan Reddy, AI Engineer, ML Intern, Python, Unity, C#, Zombie Runner, scikit-learn, SR University">
+  <meta name="author" content="Guru Charan Reddy">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Guru Charan Reddy &mdash; AI/ML &amp; Software Engineer">
+  <meta property="og:description" content="Final-year B.Tech CSE Student seeking an AI/ML internship. Explore my projects including Zombie-Runner, ML Recommendation System, and NLP Text Classifier.">
+  
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Ambient Glowing Background Blobs -->
+  <div class="ambient-bg" aria-hidden="true">
+    <div class="ambient-blob ambient-blob-1"></div>
+    <div class="ambient-blob ambient-blob-2"></div>
+    <div class="ambient-blob ambient-blob-3"></div>
+  </div>
+
+  <!-- ========================================================================
+       TOP NAVIGATION BAR
+       ======================================================================== -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-logo" aria-label="Guru Charan Reddy Portfolio">
+        <div class="nav-logo-badge">GC</div>
+        <span>Guru Charan Reddy</span>
+      </a>
+
+      <!-- Desktop & Mobile Navigation Links -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#terminal" class="nav-link">Terminal</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Actions: Theme Toggle & Resume Action -->
+      <div class="nav-actions">
+        <button class="theme-toggle-btn" id="theme-toggle" title="Toggle Theme" aria-label="Toggle Dark and Light Mode">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+
+        <button class="btn btn-secondary btn-sm open-resume-modal">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line>
+            <polyline points="10 9 9 9 8 9"></polyline>
+          </svg>
+          Resume
+        </button>
+
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ======================================================================
+         HERO SECTION
+         ====================================================================== -->
+    <section class="section-wrapper hero-section" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-left-content">
+          <div class="hero-status-pill">
+            <span class="status-indicator"></span>
+            <span>Available for AI/ML &amp; Software Engineering Internships</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <br>
+            <span class="gradient-text">Guru Charan Reddy</span>
+          </h1>
+
+          <div class="hero-typing-wrap">
+            <span id="typing-text">Aspiring AI / ML Engineer</span>
+            <span class="typing-cursor">|</span>
+          </div>
+
+          <p class="hero-desc">
+            Final-year B.Tech Computer Science student at SR University with a strong foundation in Python, Java, C++, and machine learning architectures. Passionate about solving complex problems and deploying impactful, production-ready software solutions.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                <polyline points="2 17 12 22 22 17"></polyline>
+                <polyline points="2 12 12 17 22 12"></polyline>
+              </svg>
+              View Featured Projects
+            </a>
+            
+            <a href="#contact" class="btn btn-secondary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              Contact Me
+            </a>
+
+            <button class="btn btn-outline open-resume-modal">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              View / Save Resume
+            </button>
+          </div>
+
+          <!-- Social Quick Links -->
+          <div class="hero-social-links">
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/guru-charan-reddy-2754a0356?utm_source=share_via&utm_content=profile&utm_medium=member_android" 
+               target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="LinkedIn Profile" aria-label="LinkedIn Profile">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+              </svg>
+            </a>
+
+            <!-- GitHub -->
+            <a href="https://github.com/2303A51738" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="GitHub Profile" aria-label="GitHub Profile">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+              </svg>
+            </a>
+
+            <!-- Email -->
+            <a href="mailto:2303a51738@sru.edu.in" class="social-icon-btn" title="Email Guru Charan" aria-label="Email Guru Charan">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </a>
+
+            <!-- Phone -->
+            <a href="tel:6303496394" class="social-icon-btn" title="Call Guru Charan" aria-label="Call Guru Charan">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Right Side - Interactive Code Window -->
+        <div class="hero-right-visual">
+          <div class="hero-code-card">
+            <div class="card-topbar">
+              <div class="window-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <div class="window-title">engineer_profile.py</div>
+              <div style="width: 40px;"></div>
+            </div>
+
+            <div class="hero-code-body">
+              <span class="code-line"><span class="c-keyword">class</span> <span class="c-var">CandidateProfile</span>:</span>
+              <span class="code-line">&nbsp;&nbsp;<span class="c-keyword">def</span> <span class="c-prop">__init__</span>(self):</span>
+              <span class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;self.<span class="c-prop">name</span> = <span class="c-str">"Guru Charan Reddy"</span></span>
+              <span class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;self.<span class="c-prop">education</span> = <span class="c-str">"B.Tech CSE @ SR University"</span></span>
+              <span class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;self.<span class="c-prop">graduation</span> = <span class="c-num">2027</span></span>
+              <span class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;self.<span class="c-prop">cgpa</span> = <span class="c-num">7.0</span></span>
+              <span class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;self.<span class="c-prop">seeking</span> = <span class="c-str">"AI / ML Internship"</span></span>
+              <span class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;self.<span class="c-prop">languages</span> = [<span class="c-str">"Python"</span>, <span class="c-str">"Java"</span>, <span class="c-str">"C++"</span>, <span class="c-str">"C#"</span>]</span>
+              <span class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;self.<span class="c-prop">specializations</span> = [<span class="c-str">"Machine Learning"</span>, <span class="c-str">"NLP"</span>, <span class="c-str">"Game Dev"</span>]</span>
+              <span class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;self.<span class="c-prop">location</span> = <span class="c-str">"Hyderabad, Telangana, India"</span></span>
+              <span class="code-line">&nbsp;&nbsp;<span class="c-comment"># Ready to create impact with clean, scalable code</span></span>
+            </div>
+
+            <div class="hero-stats-row">
+              <div class="hero-stat-item">
+                <div class="hero-stat-value">2027</div>
+                <div class="hero-stat-label">Graduation Year</div>
+              </div>
+              <div class="hero-stat-item">
+                <div class="hero-stat-value">7.0 / 10</div>
+                <div class="hero-stat-label">Current CGPA</div>
+              </div>
+              <div class="hero-stat-item">
+                <div class="hero-stat-value">3+</div>
+                <div class="hero-stat-label">Core Projects</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         ABOUT / CAREER OBJECTIVE SECTION
+         ====================================================================== -->
+    <section class="section-wrapper" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Career Objective</span>
+          <h2 class="section-title">Driven by Innovation, Powered by Code</h2>
+          <p class="section-subtitle">A forward-thinking Computer Science engineer focused on practical AI/ML solutions and reliable software architectures.</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Left: Narrative & Highlight Cards -->
+          <div class="card about-narrative">
+            <div>
+              <p class="about-intro-text">
+                I am a final-year B.Tech Computer Science and Engineering student at <strong>SR University</strong> with a robust technical foundation in <strong>Python, Java, and C++</strong>, alongside applied exposure to modern machine learning and data engineering frameworks.
+              </p>
+              <p class="about-detail-text">
+                My primary objective is securing an <strong>AI/ML internship</strong> where I can apply strong problem-solving abilities, data preprocessing techniques, and algorithmic thinking to deliver measurable value to production environments in collaborative, agile teams.
+              </p>
+            </div>
+
+            <div class="about-highlights-grid">
+              <div class="highlight-box">
+                <div class="highlight-icon-wrap">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M8 12a4 4 0 0 1 8 0"></path>
+                    <line x1="12" y1="2" x2="12" y2="6"></line>
+                    <line x1="12" y1="18" x2="12" y2="22"></line>
+                  </svg>
+                </div>
+                <div class="highlight-title">AI &amp; Machine Learning</div>
+                <div class="highlight-desc">Experience with scikit-learn, TensorFlow, PyTorch, TF-IDF vectorization, and recommendation systems.</div>
+              </div>
+
+              <div class="highlight-box">
+                <div class="highlight-icon-wrap">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="16 18 22 12 16 6"></polyline>
+                    <polyline points="8 6 2 12 8 18"></polyline>
+                  </svg>
+                </div>
+                <div class="highlight-title">Algorithmic Problem Solving</div>
+                <div class="highlight-desc">Solid understanding of Data Structures, Algorithms, OOP principles, and clean code paradigms.</div>
+              </div>
+
+              <div class="highlight-box">
+                <div class="highlight-icon-wrap">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                    <line x1="8" y1="21" x2="16" y2="21"></line>
+                    <line x1="12" y1="17" x2="12" y2="21"></line>
+                  </svg>
+                </div>
+                <div class="highlight-title">Interactive Development</div>
+                <div class="highlight-desc">Proven ability to build interactive 3D mechanics and game loops in Unity C# with AI chase dynamics.</div>
+              </div>
+
+              <div class="highlight-box">
+                <div class="highlight-icon-wrap">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                  </svg>
+                </div>
+                <div class="highlight-title">Agile &amp; SDLC Mindset</div>
+                <div class="highlight-desc">Comfortable working across Git version control, collaborative sprint cycles, and reproducible pipelines.</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Core Competencies -->
+          <div class="card competencies-card">
+            <div class="competencies-header">
+              <span class="badge" style="margin-bottom:0.75rem;">Professional Mindset</span>
+              <h3 style="font-size:1.4rem;">Core Competencies</h3>
+              <p style="font-size:0.9rem; color:var(--text-secondary); margin-top:0.4rem;">
+                Traits and capabilities honed through academic rigor and hands-on engineering projects.
+              </p>
+            </div>
+
+            <div class="competencies-list">
+              <div class="competency-item">
+                <div class="comp-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                </div>
+                <div class="comp-text">
+                  <strong>Analytical Problem Solving</strong>
+                  Strong ability to deconstruct complex technical challenges, optimize data structures, and maintain keen attention to detail.
+                </div>
+              </div>
+
+              <div class="competency-item">
+                <div class="comp-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                </div>
+                <div class="comp-text">
+                  <strong>Independent &amp; Collaborative Adaptability</strong>
+                  Demonstrated autonomy in learning new frameworks alongside smooth collaboration in fast-paced, multidisciplinary environments.
+                </div>
+              </div>
+
+              <div class="competency-item">
+                <div class="comp-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                </div>
+                <div class="comp-text">
+                  <strong>Effective Technical Communication</strong>
+                  Clear interpersonal communication skills for documenting workflows, presenting models, and coordinating with peers and stakeholders.
+                </div>
+              </div>
+
+              <div class="competency-item">
+                <div class="comp-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                </div>
+                <div class="comp-text">
+                  <strong>SDLC &amp; Agile Lifecycle Familiarity</strong>
+                  Experienced with iterative code design, version control workflows via Git/GitHub, sprint planning, and test validation.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         TECHNICAL SKILLS SECTION
+         ====================================================================== -->
+    <section class="section-wrapper" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Technical Matrix</span>
+          <h2 class="section-title">Skills &amp; Technologies</h2>
+          <p class="section-subtitle">A curated toolkit of languages, machine learning frameworks, core concepts, and engineering developer tools.</p>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="skills-filter-bar">
+          <button class="filter-btn active" data-filter="all">All Skills</button>
+          <button class="filter-btn" data-filter="languages">Languages</button>
+          <button class="filter-btn" data-filter="ai-ml">AI / ML &amp; Data</button>
+          <button class="filter-btn" data-filter="concepts">Core Concepts</button>
+          <button class="filter-btn" data-filter="tools">Tools &amp; Platforms</button>
+        </div>
+
+        <div class="skills-grid" id="skills-grid">
+          <!-- Programming Languages -->
+          <div class="card skill-card" data-category="languages">
+            <div class="skill-card-top">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg>
+              </div>
+              <div class="skill-meta">
+                <div class="skill-title">Python</div>
+                <div class="skill-category">Programming Language</div>
+              </div>
+            </div>
+            <p class="skill-desc">Primary language for data manipulation, machine learning modeling, scripting, and backend algorithmic tasks.</p>
+            <div class="skill-tags">
+              <span class="skill-tag">OOP</span>
+              <span class="skill-tag">NumPy/Pandas</span>
+              <span class="skill-tag">Data Preprocessing</span>
+            </div>
+          </div>
+
+          <div class="card skill-card" data-category="languages">
+            <div class="skill-card-top">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+              </div>
+              <div class="skill-meta">
+                <div class="skill-title">Java</div>
+                <div class="skill-category">Programming Language</div>
+              </div>
+            </div>
+            <p class="skill-desc">Object-oriented programming, data structures, robust modular architecture, and academic problem-solving.</p>
+            <div class="skill-tags">
+              <span class="skill-tag">OOP</span>
+              <span class="skill-tag">Collections</span>
+              <span class="skill-tag">Data Structures</span>
+            </div>
+          </div>
+
+          <div class="card skill-card" data-category="languages">
+            <div class="skill-card-top">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              </div>
+              <div class="skill-meta">
+                <div class="skill-title">C++</div>
+                <div class="skill-category">Programming Language</div>
+              </div>
+            </div>
+            <p class="skill-desc">Low-level memory management, efficient algorithms, competitive programming concepts, and performance computing.</p>
+            <div class="skill-tags">
+              <span class="skill-tag">STL</span>
+              <span class="skill-tag">Pointers &amp; Memory</span>
+              <span class="skill-tag">Algorithms</span>
+            </div>
+          </div>
+
+          <div class="card skill-card" data-category="languages">
+            <div class="skill-card-top">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="9" y1="3" x2="9" y2="21"></line></svg>
+              </div>
+              <div class="skill-meta">
+                <div class="skill-title">C# &amp; Unity Engine</div>
+                <div class="skill-category">Programming &amp; Game Dev</div>
+              </div>
+            </div>
+            <p class="skill-desc">Hands-on experience developing real-time interactive 3D simulations, player controllers, physics, and state machines.</p>
+            <div class="skill-tags">
+              <span class="skill-tag">Unity 3D</span>
+              <span class="skill-tag">Game AI</span>
+              <span class="skill-tag">CharacterController</span>
+            </div>
+          </div>
+
+          <!-- AI / ML & Frameworks -->
+          <div class="card skill-card" data-category="ai-ml">
+            <div class="skill-card-top">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+              </div>
+              <div class="skill-meta">
+                <div class="skill-title">scikit-learn</div>
+                <div class="skill-category">AI / ML Framework</div>
+              </div>
+            </div>
+            <p class="skill-desc">Supervised and unsupervised models, classification, regression, clustering, hyperparameter tuning, and cross-validation.</p>
+            <div class="skill-tags">
+              <span class="skill-tag">Naive Bayes</span>
+              <span class="skill-tag">SVM</span>
+              <span class="skill-tag">Logistic Regression</span>
+            </div>
+          </div>
+
+          <div class="card skill-card" data-category="ai-ml">
+            <div class="skill-card-top">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg>
+              </div>
+              <div class="skill-meta">
+                <div class="skill-title">TensorFlow &amp; PyTorch</div>
+                <div class="skill-category">Deep Learning</div>
+              </div>
+            </div>
+            <p class="skill-desc">Hands-on exposure to neural network fundamentals, tensor manipulations, loss functions, and deep learning architectures.</p>
+            <div class="skill-tags">
+              <span class="skill-tag">Neural Nets</span>
+              <span class="skill-tag">Tensors</span>
+              <span class="skill-tag">Model Training</span>
+            </div>
+          </div>
+
+          <div class="card skill-card" data-category="ai-ml">
+            <div class="skill-card-top">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+              </div>
+              <div class="skill-meta">
+                <div class="skill-title">Pandas &amp; NumPy</div>
+                <div class="skill-category">Data Engineering</div>
+              </div>
+            </div>
+            <p class="skill-desc">Data wrangling, matrix computation, vectorization, handling missing values, and high-performance tabular feature engineering.</p>
+            <div class="skill-tags">
+              <span class="skill-tag">DataFrames</span>
+              <span class="skill-tag">Feature Eng</span>
+              <span class="skill-tag">Matrix Math</span>
+            </div>
+          </div>
+
+          <div class="card skill-card" data-category="ai-ml">
+            <div class="skill-card-top">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+              </div>
+              <div class="skill-meta">
+                <div class="skill-title">NLTK &amp; NLP</div>
+                <div class="skill-category">Natural Language Processing</div>
+              </div>
+            </div>
+            <p class="skill-desc">Text tokenization, stopword filtering, lemmatization, TF-IDF vectorization, and building sentiment and spam text classifiers.</p>
+            <div class="skill-tags">
+              <span class="skill-tag">TF-IDF</span>
+              <span class="skill-tag">Tokenization</span>
+              <span class="skill-tag">Text Normalization</span>
+            </div>
+          </div>
+
+          <!-- Core Concepts -->
+          <div class="card skill-card" data-category="concepts">
+            <div class="skill-card-top">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+              </div>
+              <div class="skill-meta">
+                <div class="skill-title">Machine Learning Concepts</div>
+                <div class="skill-category">Core Theory</div>
+              </div>
+            </div>
+            <p class="skill-desc">Collaborative filtering, content-based recommendation engines, evaluation metrics (Precision, Recall, F1, ROC/AUC).</p>
+            <div class="skill-tags">
+              <span class="skill-tag">Recommendation Systems</span>
+              <span class="skill-tag">Model Metrics</span>
+            </div>
+          </div>
+
+          <div class="card skill-card" data-category="concepts">
+            <div class="skill-card-top">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
+              </div>
+              <div class="skill-meta">
+                <div class="skill-title">SDLC &amp; Agile Methodologies</div>
+                <div class="skill-category">Software Engineering</div>
+              </div>
+            </div>
+            <p class="skill-desc">Iterative development, sprint cycles, task breakdown, code reviews, and structured software lifecycle execution.</p>
+            <div class="skill-tags">
+              <span class="skill-tag">Agile</span>
+              <span class="skill-tag">Sprint Cycles</span>
+              <span class="skill-tag">Documentation</span>
+            </div>
+          </div>
+
+          <!-- Tools & Platforms -->
+          <div class="card skill-card" data-category="tools">
+            <div class="skill-card-top">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="18" r="3"></circle><circle cx="6" cy="6" r="3"></circle><path d="M13 6h3a2 2 0 0 1 2 2v7"></path><line x1="6" y1="9" x2="6" y2="21"></line></svg>
+              </div>
+              <div class="skill-meta">
+                <div class="skill-title">Git &amp; GitHub</div>
+                <div class="skill-category">Version Control</div>
+              </div>
+            </div>
+            <p class="skill-desc">Branching, merge workflows, repository hosting, collaborative commit habits, and open-source project management.</p>
+            <div class="skill-tags">
+              <span class="skill-tag">Version Control</span>
+              <span class="skill-tag">GitHub Repos</span>
+              <span class="skill-tag">Collaboration</span>
+            </div>
+          </div>
+
+          <div class="card skill-card" data-category="tools">
+            <div class="skill-card-top">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+              </div>
+              <div class="skill-meta">
+                <div class="skill-title">VS Code &amp; Jupyter Notebook</div>
+                <div class="skill-category">Development Environment</div>
+              </div>
+            </div>
+            <p class="skill-desc">Interactive data analysis, exploratory computing, model experimentation, automated debugging, and script execution.</p>
+            <div class="skill-tags">
+              <span class="skill-tag">Notebooks</span>
+              <span class="skill-tag">Extensions</span>
+              <span class="skill-tag">Debugging</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         FEATURED PROJECTS SECTION
+         ====================================================================== -->
+    <section class="section-wrapper" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Portfolio Showcase</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">Real-world projects showcasing hands-on game development, machine learning algorithms, and natural language processing.</p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- PROJECT 1: ZOMBIE RUNNER (User explicitly requested) -->
+          <article class="card project-card featured-card">
+            <div class="project-header-visual">
+              <div class="visual-pattern"></div>
+              <div class="visual-badge-overlay">
+                <span class="featured-pill">Featured Project</span>
+              </div>
+              <div class="visual-icon-display">
+                <!-- Gamepad / Runner Icon -->
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                </svg>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <div class="project-tech-stack">
+                <span class="tech-badge">Unity 3D</span>
+                <span class="tech-badge">C#</span>
+                <span class="tech-badge">AI Zombie Chase</span>
+                <span class="tech-badge">Procedural Generation</span>
+              </div>
+
+              <h3 class="project-title">Zombie-Runner &mdash; 3D Endless Runner Game</h3>
+
+              <ul class="project-desc-bullets">
+                <li>Built a 3D endless runner game in Unity using C#, incorporating responsive 3-lane movement, jump, and ground-slide physics maneuvers.</li>
+                <li>Designed an AI-driven zombie pursuit mechanism (<code>ZombieFollow.cs</code>) featuring real-time distance tracking, velocity catch-up logic, and dynamic 3D audio cues (footsteps &amp; growls).</li>
+                <li>Engineered procedural endless track pooling (<code>EndlessTrack.cs</code>), obstacle spawning routines, and UV light collectible pickups for player survival.</li>
+                <li>Architected full UI lifecycle with home panel, gameplay HUD, live score tracking, and persistent high scores via <code>GameManager.cs</code>.</li>
+              </ul>
+
+              <div class="project-interactive-box">
+                <div class="interactive-box-title">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                  Architecture Highlight
+                </div>
+                <div class="interactive-box-body">
+                  Modular scripts: <code>PlayerMovement</code>, <code>ZombieFollow</code>, <code>UVInventory</code>, <code>EndlessTrack</code>, and <code>GameManager</code>.
+                </div>
+              </div>
+
+              <div class="project-footer-actions">
+                <a href="https://github.com/2303A51740/Zombie-Runner" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                  GitHub Repo
+                </a>
+                <button class="btn btn-secondary btn-sm open-project-modal" data-project="zombie-runner">
+                  Architecture Specs
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 2: SMART PRODUCT RECOMMENDATION SYSTEM -->
+          <article class="card project-card">
+            <div class="project-header-visual">
+              <div class="visual-pattern"></div>
+              <div class="visual-icon-display">
+                <!-- AI Sparkle / Nodes Icon -->
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                  <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                  <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                </svg>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <div class="project-tech-stack">
+                <span class="tech-badge">Python</span>
+                <span class="tech-badge">scikit-learn</span>
+                <span class="tech-badge">Pandas</span>
+                <span class="tech-badge">NumPy</span>
+              </div>
+
+              <h3 class="project-title">Smart Product Recommendation System</h3>
+
+              <ul class="project-desc-bullets">
+                <li>Designed and implemented a smart product recommendation engine using content-based and collaborative filtering techniques to suggest relevant items to users.</li>
+                <li>Processed and cleaned high-dimensional e-commerce style datasets using Pandas and NumPy to engineer features for the recommendation model.</li>
+                <li>Evaluated model performance using precision and recall metrics, iteratively fine-tuning similarity thresholds to maximize user relevance and engagement.</li>
+              </ul>
+
+              <div class="project-interactive-box">
+                <div class="interactive-box-title">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
+                  Approach &amp; Metric
+                </div>
+                <div class="interactive-box-body">
+                  Cosine similarity on TF-IDF item features + user-item matrix factorization for collaborative filtering.
+                </div>
+              </div>
+
+              <div class="project-footer-actions">
+                <a href="https://github.com/2303A51740" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                  GitHub Profile
+                </a>
+                <button class="btn btn-outline btn-sm open-project-modal" data-project="recommendation-system">
+                  View Pipeline
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 3: NLP-BASED TEXT CLASSIFIER -->
+          <article class="card project-card">
+            <div class="project-header-visual">
+              <div class="visual-pattern"></div>
+              <div class="visual-icon-display">
+                <!-- Text / Terminal NLP Icon -->
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <div class="project-tech-stack">
+                <span class="tech-badge">Python</span>
+                <span class="tech-badge">scikit-learn</span>
+                <span class="tech-badge">NLTK</span>
+                <span class="tech-badge">TF-IDF</span>
+              </div>
+
+              <h3 class="project-title">NLP-Based Text Classifier</h3>
+
+              <ul class="project-desc-bullets">
+                <li>Built a text classification model (e.g., spam detection / sentiment analysis) using NLP preprocessing techniques including tokenization, stopword removal, and TF-IDF vectorization.</li>
+                <li>Trained and evaluated multiple classification algorithms (Naive Bayes, Logistic Regression, Support Vector Machines) to benchmark the best-performing model.</li>
+                <li>Achieved strong classification accuracy on test splits and thoroughly documented the pipeline for reproducibility and production readiness.</li>
+              </ul>
+
+              <div class="project-interactive-box">
+                <div class="interactive-box-title">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                  Benchmark Comparison
+                </div>
+                <div class="interactive-box-body">
+                  Evaluated MultinomialNB vs. LogisticRegression vs. LinearSVC with cross-validation.
+                </div>
+              </div>
+
+              <div class="project-footer-actions">
+                <a href="https://github.com/2303A51740" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                  GitHub Profile
+                </a>
+                <button class="btn btn-outline btn-sm open-project-modal" data-project="nlp-classifier">
+                  View Benchmark
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         EDUCATION & RELEVANT COURSEWORK SECTION
+         ====================================================================== -->
+    <section class="section-wrapper" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Academic Background</span>
+          <h2 class="section-title">Education &amp; Coursework</h2>
+          <p class="section-subtitle">Rigorous computer science curriculum grounding practical engineering with strong theoretical fundamentals.</p>
+        </div>
+
+        <div class="edu-grid">
+          <!-- Degree Details Card -->
+          <div class="card edu-main-card">
+            <div>
+              <div class="edu-card-top">
+                <div class="edu-icon-badge">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                    <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="edu-degree">Bachelor of Technology (B.Tech)</h3>
+                  <div class="edu-institution">SR University</div>
+                  <div style="font-size: 0.9rem; color: var(--text-secondary); margin-top: 2px;">
+                    Computer Science and Engineering
+                  </div>
+                </div>
+              </div>
+
+              <div class="edu-meta-badges">
+                <div class="edu-badge-item">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                  <span>Expected Graduation: <strong>2027</strong></span>
+                </div>
+                <div class="edu-badge-item">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                  <span>Cumulative CGPA: <strong>7.0 / 10</strong></span>
+                </div>
+                <div class="edu-badge-item">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                  <span>Telangana, India</span>
+                </div>
+              </div>
+
+              <div class="edu-desc-box">
+                <p>
+                  Engaged in in-depth study of computer science fundamentals, focusing on modern computational paradigms, artificial intelligence architectures, algorithmic design, and distributed systems engineering.
+                </p>
+              </div>
+            </div>
+
+            <div style="margin-top: 1.5rem; display: flex; gap: 0.75rem;">
+              <button class="btn btn-secondary btn-sm open-resume-modal">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>
+                View Academic Resume
+              </button>
+            </div>
+          </div>
+
+          <!-- Relevant Coursework Chips -->
+          <div class="card coursework-card">
+            <h3 class="coursework-title">Relevant Coursework</h3>
+            <p class="coursework-subtitle">Core academic subjects forming the foundation of software and AI engineering.</p>
+
+            <div class="course-chips-grid">
+              <div class="course-chip">
+                <div class="course-chip-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                </div>
+                <span class="course-chip-name">Data Structures &amp; Algorithms</span>
+              </div>
+
+              <div class="course-chip">
+                <div class="course-chip-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+                </div>
+                <span class="course-chip-name">Machine Learning</span>
+              </div>
+
+              <div class="course-chip">
+                <div class="course-chip-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                </div>
+                <span class="course-chip-name">Artificial Intelligence</span>
+              </div>
+
+              <div class="course-chip">
+                <div class="course-chip-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+                </div>
+                <span class="course-chip-name">Database Management Systems (DBMS)</span>
+              </div>
+
+              <div class="course-chip">
+                <div class="course-chip-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
+                </div>
+                <span class="course-chip-name">Object-Oriented Programming (OOP)</span>
+              </div>
+
+              <div class="course-chip">
+                <div class="course-chip-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                </div>
+                <span class="course-chip-name">Software Engineering &amp; SDLC</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         INTERACTIVE DEVELOPER TERMINAL COMPONENT
+         ====================================================================== -->
+    <section class="section-wrapper" id="terminal">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Interactive CLI</span>
+          <h2 class="section-title">Developer Terminal</h2>
+          <p class="section-subtitle">Query my background, run diagnostics, and test commands in real time.</p>
+        </div>
+
+        <div class="terminal-card">
+          <div class="terminal-header">
+            <div class="window-dots">
+              <span class="dot dot-red"></span>
+              <span class="dot dot-yellow"></span>
+              <span class="dot dot-green"></span>
+            </div>
+            <div class="window-title">bash &mdash; guru-charan-reddy@sru: ~</div>
+            <span class="badge" style="font-size:0.7rem; color:#38bdf8;">CLI Active</span>
+          </div>
+
+          <!-- Quick Command Suggestions -->
+          <div class="terminal-actions-quick">
+            <span style="font-size:0.75rem; color:#64748b; margin-right:4px;">Quick Run:</span>
+            <button class="quick-cmd-btn" data-cmd="whoami">whoami</button>
+            <button class="quick-cmd-btn" data-cmd="skills">skills</button>
+            <button class="quick-cmd-btn" data-cmd="zombie">zombie</button>
+            <button class="quick-cmd-btn" data-cmd="projects">projects</button>
+            <button class="quick-cmd-btn" data-cmd="education">education</button>
+            <button class="quick-cmd-btn" data-cmd="contact">contact</button>
+            <button class="quick-cmd-btn" data-cmd="clear">clear</button>
+          </div>
+
+          <div class="terminal-window-body" id="term-output">
+            <div class="term-output-line">
+              Welcome to <strong>Guru Charan Reddy's Interactive Shell</strong> [v2.4.0-release]
+            </div>
+            <div class="term-output-line" style="color:#94a3b8;">
+              Type <span style="color:#38bdf8; font-weight:600;">help</span> to inspect valid commands or click any quick pill above.
+            </div>
+          </div>
+
+          <div class="term-prompt-line" style="padding: 0.85rem 1.25rem; background: #0c121e; border-top: 1px solid rgba(255,255,255,0.08);">
+            <span class="term-prefix">guest@gurucharan:~$</span>
+            <input type="text" class="term-input" id="term-input" placeholder="Type a command (e.g. skills, zombie, whoami)..." autocomplete="off" spellcheck="false">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         CONTACT SECTION
+         ====================================================================== -->
+    <section class="section-wrapper" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Let's Connect</span>
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-subtitle">Interested in discussing AI/ML internship opportunities, project collaborations, or tech stacks? Reach out directly!</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Tiles with 1-Click Copy -->
+          <div class="contact-info-card">
+            <!-- Phone Tile -->
+            <div class="contact-tile">
+              <div class="contact-tile-left">
+                <div class="contact-tile-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                </div>
+                <div>
+                  <div class="contact-tile-label">Phone / Mobile</div>
+                  <div class="contact-tile-value">6303496394</div>
+                </div>
+              </div>
+              <button class="copy-btn" data-copy="6303496394" title="Copy Phone Number" aria-label="Copy Phone Number">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+
+            <!-- Email Tile -->
+            <div class="contact-tile">
+              <div class="contact-tile-left">
+                <div class="contact-tile-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div>
+                  <div class="contact-tile-label">Email</div>
+                  <div class="contact-tile-value">2303a51738@sru.edu.in</div>
+                </div>
+              </div>
+              <button class="copy-btn" data-copy="2303a51738@sru.edu.in" title="Copy Email Address" aria-label="Copy Email Address">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+
+            <!-- Location Tile -->
+            <div class="contact-tile">
+              <div class="contact-tile-left">
+                <div class="contact-tile-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </div>
+                <div>
+                  <div class="contact-tile-label">Location</div>
+                  <div class="contact-tile-value">Hyderabad, Telangana, India</div>
+                </div>
+              </div>
+              <button class="copy-btn" data-copy="Hyderabad, Telangana, India" title="Copy Location" aria-label="Copy Location">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+
+            <!-- LinkedIn Tile -->
+            <div class="contact-tile">
+              <div class="contact-tile-left">
+                <div class="contact-tile-icon">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                </div>
+                <div>
+                  <div class="contact-tile-label">LinkedIn Profile</div>
+                  <div class="contact-tile-value">guru-charan-reddy</div>
+                </div>
+              </div>
+              <a href="https://www.linkedin.com/in/guru-charan-reddy-2754a0356?utm_source=share_via&utm_content=profile&utm_medium=member_android" 
+                 target="_blank" rel="noopener noreferrer" class="copy-btn" title="Open LinkedIn" aria-label="Open LinkedIn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </div>
+
+            <!-- GitHub Tile -->
+            <div class="contact-tile">
+              <div class="contact-tile-left">
+                <div class="contact-tile-icon">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                </div>
+                <div>
+                  <div class="contact-tile-label">GitHub</div>
+                  <div class="contact-tile-value">github.com/2303A51738</div>
+                </div>
+              </div>
+              <a href="https://github.com/2303A51740" target="_blank" rel="noopener noreferrer" class="copy-btn" title="Open GitHub" aria-label="Open GitHub">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Message Form -->
+          <div class="card contact-form-card">
+            <h3 style="font-size:1.3rem; margin-bottom:0.4rem;">Send a Direct Message</h3>
+            <p style="font-size:0.88rem; color:var(--text-secondary); margin-bottom:1.5rem;">
+              Fill in your details and message below to initiate communication.
+            </p>
+
+            <form id="contact-form">
+              <div class="form-group">
+                <label for="sender-name" class="form-label">Your Name *</label>
+                <input type="text" id="sender-name" class="form-input" placeholder="e.g. Hiring Manager / Tech Recruiter" required>
+              </div>
+
+              <div class="form-group">
+                <label for="sender-email" class="form-label">Your Email *</label>
+                <input type="email" id="sender-email" class="form-input" placeholder="e.g. recruiter@company.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="sender-subject" class="form-label">Subject</label>
+                <input type="text" id="sender-subject" class="form-input" placeholder="AI/ML Internship Opportunity / Inquiry">
+              </div>
+
+              <div class="form-group">
+                <label for="sender-message" class="form-label">Message *</label>
+                <textarea id="sender-message" class="form-textarea" placeholder="Hello Guru Charan, we'd love to discuss..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width:100%;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                Send Message
+              </button>
+
+              <div class="form-feedback" id="form-feedback"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         DECLARATION BANNER (As specified in profile)
+         ====================================================================== -->
+    <div class="declaration-bar">
+      <div class="container">
+        <div class="declaration-box">
+          <div class="dec-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+          </div>
+          <div class="dec-text">
+            <strong>Candidate Declaration:</strong>
+            "I hereby declare that the above information is true and correct to the best of my knowledge."
+            <br>
+            <span style="font-size:0.8rem; color:var(--text-muted);">&mdash; Guru Charan Reddy | SR University</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- ========================================================================
+       FOOTER
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-text">
+        &copy; <span id="current-year">2026</span> Guru Charan Reddy. Built with pure HTML, CSS, and Modern JavaScript.
+      </div>
+
+      <button class="back-to-top-btn" onclick="window.scrollTo({top:0, behavior:'smooth'})" aria-label="Back to top">
+        Back to Top
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"></polyline></svg>
+      </button>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       MODAL: PROJECT ARCHITECTURE DEEP DIVE
+       ======================================================================== -->
+  <div class="modal-backdrop" id="project-modal" role="dialog" aria-modal="true" aria-labelledby="modal-project-title">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modal-project-title">Project Deep Dive</h3>
+        <button class="modal-close-btn modal-close-trigger" aria-label="Close modal">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+      <div class="modal-body" id="modal-project-body">
+        <!-- Injected via script.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       MODAL: ATS PRINTABLE RESUME PREVIEW
+       ======================================================================== -->
+  <div class="modal-backdrop" id="resume-modal" role="dialog" aria-modal="true" aria-labelledby="modal-resume-title">
+    <div class="modal-dialog" style="max-width: 860px;">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modal-resume-title">Curriculum Vitae / ATS Resume</h3>
+        <div style="display: flex; gap: 0.5rem; align-items: center;">
+          <button class="btn btn-primary btn-sm" id="print-resume-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+            Print / Save PDF
+          </button>
+          <button class="modal-close-btn modal-close-trigger" aria-label="Close modal">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          </button>
+        </div>
+      </div>
+      <div class="modal-body" style="background:#f1f5f9; padding:1.5rem;">
+        
+        <!-- Standard ATS Clean Formatted Sheet -->
+        <div class="resume-sheet" id="printable-resume">
+          <div class="resume-header">
+            <h1 class="resume-name">GURU CHARAN REDDY</h1>
+            <div class="resume-contact-line">
+              <span><strong>Phone:</strong> 6303496394</span>
+              <span>&bull;</span>
+              <span><strong>Email:</strong> 2303a51738@sru.edu.in</span>
+              <span>&bull;</span>
+              <span><strong>Location:</strong> Hyderabad, Telangana, India</span>
+              <span>&bull;</span>
+              <span><strong>LinkedIn:</strong> linkedin.com/in/guru-charan-reddy-2754a0356</span>
+              <span>&bull;</span>
+              <span><strong>GitHub:</strong> github.com/2303A51740</span>
+            </div>
+          </div>
+
+          <!-- Career Objective -->
+          <div class="resume-section-title">Career Objective</div>
+          <p style="font-size:0.9rem; color:#334155; line-height:1.6;">
+            Final-year B.Tech Computer Science student with a strong foundation in Python, Java, and C++, and hands-on exposure to machine learning frameworks. Seeking an AI/ML internship to apply problem-solving skills and contribute to real-world projects in a collaborative, agile environment.
+          </p>
+
+          <!-- Education -->
+          <div class="resume-section-title">Education</div>
+          <div class="resume-item">
+            <div class="resume-item-header">
+              <span>Bachelor of Technology (B.Tech), Computer Science and Engineering</span>
+              <span>Expected Graduation: 2027</span>
+            </div>
+            <div class="resume-item-sub">
+              SR University &nbsp;|&nbsp; Hyderabad/Telangana, India &nbsp;|&nbsp; <strong>CGPA: 7.0 / 10</strong>
+            </div>
+          </div>
+
+          <!-- Technical Skills -->
+          <div class="resume-section-title">Technical Skills</div>
+          <ul class="resume-bullets">
+            <li><strong>Programming Languages:</strong> Python, Java, C++, C#</li>
+            <li><strong>AI/ML Frameworks &amp; Libraries:</strong> scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, NLTK</li>
+            <li><strong>Concepts:</strong> Machine Learning, Natural Language Processing, Data Preprocessing, Software Development Lifecycle (SDLC), Agile Methodologies, Object-Oriented Programming (OOP)</li>
+            <li><strong>Tools &amp; Platforms:</strong> Git, GitHub, Jupyter Notebook, VS Code, Unity Engine</li>
+          </ul>
+
+          <!-- Projects -->
+          <div class="resume-section-title">Projects</div>
+
+          <!-- Project: Zombie-Runner -->
+          <div class="resume-item">
+            <div class="resume-item-header">
+              <span>Zombie-Runner (3D Endless Runner Game) &nbsp;|&nbsp; Unity 3D, C#, Game Physics, AI</span>
+              <span><a href="https://github.com/2303A51740/Zombie-Runner" target="_blank" style="color:#0284c7; text-decoration:underline;">GitHub Repository</a></span>
+            </div>
+            <ul class="resume-bullets">
+              <li>Designed and developed an endless runner game featuring 3-lane movement physics, dynamic jumping, and ground slide mechanics.</li>
+              <li>Engineered AI zombie pursuit algorithm with velocity catch-up, rotation tracking, and adaptive audio growl/footstep cues.</li>
+              <li>Implemented procedural endless track segment pooling, hazard obstacle generation, and UV light inventory/pickup systems.</li>
+              <li>Created comprehensive UI flow with HUD score counting, high score persistence, and game over handling via GameManager.</li>
+            </ul>
+          </div>
+
+          <!-- Project: Smart Product Recommendation System -->
+          <div class="resume-item">
+            <div class="resume-item-header">
+              <span>Smart Product Recommendation System &nbsp;|&nbsp; Python, scikit-learn, Pandas, NumPy</span>
+            </div>
+            <ul class="resume-bullets">
+              <li>Designed and implemented a smart product recommendation engine using content-based and collaborative filtering techniques to suggest relevant products to users.</li>
+              <li>Processed and cleaned e-commerce style datasets using Pandas and NumPy to engineer features for the recommendation model.</li>
+              <li>Evaluated model performance using precision/recall metrics and iterated on the approach to improve recommendation relevance.</li>
+            </ul>
+          </div>
+
+          <!-- Project: NLP-Based Text Classifier -->
+          <div class="resume-item">
+            <div class="resume-item-header">
+              <span>NLP-Based Text Classifier &nbsp;|&nbsp; Python, scikit-learn, NLTK</span>
+            </div>
+            <ul class="resume-bullets">
+              <li>Built a text classification model (e.g., spam detection / sentiment analysis) using NLP preprocessing techniques such as tokenization, stopword removal, and TF-IDF vectorization.</li>
+              <li>Trained and evaluated multiple classification algorithms (Naive Bayes, Logistic Regression, SVM) to identify the best-performing model.</li>
+              <li>Achieved strong classification accuracy on test data and documented the workflow for reproducibility.</li>
+            </ul>
+          </div>
+
+          <!-- Core Competencies -->
+          <div class="resume-section-title">Core Competencies</div>
+          <ul class="resume-bullets">
+            <li>Strong problem-solving ability with keen attention to detail.</li>
+            <li>Comfortable working independently and collaboratively in fast-paced, team-oriented environments.</li>
+            <li>Effective communication and interpersonal skills.</li>
+            <li>Familiarity with agile methodologies and the software development lifecycle.</li>
+          </ul>
+
+          <!-- Relevant Coursework -->
+          <div class="resume-section-title">Relevant Coursework</div>
+          <p style="font-size:0.88rem; color:#334155; margin-bottom:0.5rem;">
+            Data Structures &amp; Algorithms, Machine Learning, Database Management Systems (DBMS), Object-Oriented Programming (OOP), Software Engineering, Artificial Intelligence.
+          </p>
+
+          <!-- Declaration -->
+          <div class="resume-section-title">Declaration</div>
+          <p style="font-size:0.85rem; color:#475569; font-style:italic;">
+            I hereby declare that the above information is true and correct to the best of my knowledge.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Pill -->
+  <div class="toast-notice" id="toast-notice" role="alert" aria-live="polite">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+    <span id="toast-msg">Notification</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
